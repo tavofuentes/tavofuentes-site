@@ -1,12 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 import Panel from "@/components/Panel";
 import ButtonLink from "@/components/ButtonLink";
+import heroIcon from "../../public/press.png";
 
 const Hero = () => {
   return (
     <Panel className="bg-eggshell">
       <div className="flex flex-col md:flex-row outline1">
         <div className="flex-1 flex-col p-6 md:p-12  outline2">
+          <Image
+            className="mb-4"
+            src={heroIcon}
+            alt="powered by coffee"
+            width={60}
+            height={60}
+          ></Image>
           <h1
             className={`font-literata text-6xl text-black font-extrabold tracking-tight`}
           >
