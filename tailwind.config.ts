@@ -11,9 +11,12 @@ const config: Config = {
       colors: {
         eggshell: "#F0EDEC",
         black: "#1A1B25",
-        brick: "#9B1D20",
         forest: "#294D4A",
         night: "#161C1B",
+        tangerine: "#FC814A",
+        brick: "#9B1D20",
+        grass: "#467E79",
+        olive: "#919973",
       },
     },
   },

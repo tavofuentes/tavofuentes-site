@@ -8,10 +8,8 @@ interface Props {
 }
 
 const styles = {
-  "outline-dark":
-    "outline outline-1 outline-eggshell rounded text-eggshell px-5 py-2",
-  "outline-light":
-    "outline outline-1 outline-black rounded text-black px-5 py-2",
+  "outline-dark": "outline outline-1 outline-eggshell rounded text-eggshell",
+  "outline-light": "outline outline-1 outline-black rounded text-black",
 };
 
 export default function ButtonLink({
@@ -24,7 +22,7 @@ export default function ButtonLink({
     <>
       {targetUrl.includes("http") ? (
         <a
-          className={`${styles[buttonStyle]} ${className}`}
+          className={`${styles[buttonStyle]} ${className} font-inconsolata font-medium text-2xl px-6 py-4`}
           href={targetUrl}
           target="_blank"
         >
@@ -32,7 +30,7 @@ export default function ButtonLink({
         </a>
       ) : (
         <Link
-          className={`${styles[buttonStyle]} ${className}`}
+          className={`${styles[buttonStyle]} ${className} font-inconsolata font-medium text-2xl px-6 py-4`}
           href={targetUrl}
         >
           {children}
