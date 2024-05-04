@@ -7,7 +7,7 @@ import heroIcon from "../../public/press.png";
 const Hero = () => {
   return (
     <Panel className="bg-eggshell">
-      <div className="flex flex-col md:flex-row pb-6 md:pb-16 outline1">
+      <div className="flex flex-col lg:flex-row pb-6 md:pb-16 outline1">
         <div className="flex-1 flex-col p-6 md:p-12 outline2">
           <div className="">
             <Image
@@ -43,7 +43,7 @@ const Hero = () => {
             Read full experience
           </ButtonLink>
         </div>
-        <div className="flex-1 p-6 md:p-12 outline1">[tech list]</div>
+        <div className="flex-1 p-6 md:p-12 outline1"></div>
       </div>
     </Panel>
   );
