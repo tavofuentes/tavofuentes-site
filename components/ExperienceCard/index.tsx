@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { ExperienceRecord } from "@/support/types";
 import ButtonLink from "../ButtonLink";
+import { Literata, Inconsolata } from "next/font/google";
+
 interface Props {
   experienceRecord: ExperienceRecord;
   bgColor: string;
   imgBgColor: string;
 }
+
+const fontLiterata = Literata({ subsets: ["latin"] });
+const fontInconsolata = Inconsolata({ subsets: ["latin"] });
 
 const ExperienceCard = ({ experienceRecord, bgColor, imgBgColor }: Props) => {
   return (
@@ -29,18 +34,20 @@ const ExperienceCard = ({ experienceRecord, bgColor, imgBgColor }: Props) => {
       >
         <div className="outline2 p-6 md:p-12 flex-1">
           <h1
-            className={`font-literata text-5xl mb-3 md:mb-6 text-black font-semibold`}
+            className={`${fontLiterata.className} text-5xl mb-3 md:mb-6 text-black font-semibold`}
           >
             {experienceRecord.title}
           </h1>
-          <p className="font-inconsolata">{experienceRecord.description}</p>
-          <ButtonLink
+          <p className={fontInconsolata.className}>
+            {experienceRecord.description}
+          </p>
+          {/* <ButtonLink
             className="mt-6 inline-block"
             buttonStyle="outline-light"
             targetUrl="/more"
           >
             Read more
-          </ButtonLink>
+          </ButtonLink> */}
         </div>
         <div
           className={`${imgBgColor} outline2

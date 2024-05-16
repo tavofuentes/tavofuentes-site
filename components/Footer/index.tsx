@@ -1,10 +1,14 @@
 import Panel from "@/components/Panel";
 import ButtonLink from "@/components/ButtonLink";
+import { Inconsolata } from "next/font/google";
+const fontInconsolata = Inconsolata({ subsets: ["latin"] });
 
 const Footer = () => {
   return (
     <Panel className="bg-night grow">
-      <div className="font-inconsolata text-base font-bold text-eggshell flex flex-col items-center p-6 md:p-12 outline1">
+      <div
+        className={`${fontInconsolata.className} font-inconsolata text-base font-bold text-eggshell flex flex-col items-center p-6 md:p-12 outline1`}
+      >
         <a className="" href="">
           See full experience
         </a>

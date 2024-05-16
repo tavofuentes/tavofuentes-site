@@ -3,6 +3,10 @@ import Image from "next/image";
 import Panel from "@/components/Panel";
 import ButtonLink from "@/components/ButtonLink";
 import heroIcon from "../../public/press.png";
+import { Literata, Inconsolata } from "next/font/google";
+
+const fontLiterata = Literata({ subsets: ["latin"] });
+const fontInconsolata = Inconsolata({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
@@ -19,14 +23,18 @@ const Hero = () => {
             ></Image>
           </div>
           <h1
-            className={`font-literata text-6xl text-black font-extrabold tracking-tight`}
+            className={`${fontLiterata.className}  text-6xl text-black font-extrabold tracking-tight`}
           >
             Octavio Fuentes
           </h1>
-          <h2 className="font-inconsolata text-5xl font-light tracking-tight pt-4">
+          <h2
+            className={`${fontInconsolata.className} text-5xl font-light tracking-tight pt-4`}
+          >
             Software Engineer
           </h2>
-          <p className="font-inconsolata text-xl pt-8 lg:pt-12 pr-6 lg:pr-24">
+          <p
+            className={`${fontInconsolata.className} text-xl pt-8 lg:pt-12 pr-6 lg:pr-24`}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud{" "}
