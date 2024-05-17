@@ -9,14 +9,12 @@ const Footer = () => {
       <div
         className={`${fontInconsolata.className} font-inconsolata text-base font-bold text-eggshell flex flex-col items-center p-6 md:p-12 outline1`}
       >
-        <a className="" href="">
-          See full experience
-        </a>
+        <span className="">See full experience</span>
         <div className="flex flex-wrap mt-6 justify-between">
           <ButtonLink
             className="mr-5 mb-5"
             buttonStyle="outline-dark"
-            targetUrl="/work-experience"
+            targetUrl="/cv"
           >
             Read full
           </ButtonLink>
@@ -29,6 +27,16 @@ const Footer = () => {
             Download CV
           </ButtonLink>
         </div>
+        <p className="mt-12 text-xs">
+          Design by{" "}
+          <a
+            className="underline decoration-solid"
+            href="https://www.karlavilla.com"
+            target="_blank"
+          >
+            Karla Villa
+          </a>
+        </p>
       </div>
     </Panel>
   );

@@ -49,7 +49,7 @@ const Header = ({ homeLink = true }) => {
         )}
         <nav className="flex flex-row flex-wrap items-end outline2">
           <Link className="mr-5" href={"/cv"}>
-            Work
+            CV
           </Link>
           <a
             className="mr-5"

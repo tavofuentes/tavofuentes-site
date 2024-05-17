@@ -5,27 +5,37 @@ import ExperienceCard from "@/components/ExperienceCard";
 const experienceList = [
   {
     title: "Falabella",
+    role: "Senior Software Engineer",
     dates: "2020-2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Development and maintenance of PCI DSS compliant payment method integrations.  Close collaboration with checkout product owners and designers for visual and performance improvements.",
+    techList: "PHP, Symfony, Postrgres, Pub/Sub, PCI DSS, AngularJS, Docker",
   },
   {
     title: "Globant",
-    dates: "2020-2023",
+    role: "Software Engineer",
+    dates: "2018-2020",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Development of wealth management web applications for Santander México banking group. Delivery of micro frontends for cross-platform environments.",
+    techList: "Svelte, ReactJS, NodeJS, SASS, Bootstrap, Webpack, SCRUM",
   },
   {
-    title: "Linio TL",
-    dates: "2020-2023",
+    title: "Linio",
+    role: "Team Leader",
+    dates: "2016-2018",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Collaboration with architecture and DevOps teams for solution design and integration. Definition of roadmap in coordination with stakeholders. Onboarding of new team members. Agile development lifecycle for the Frontend team.",
+    techList:
+      "Agile, Scrum, Docker, PHP, Symfony, Javascript, AngularJS, MySQL, Redis",
   },
   {
-    title: "Linio SE",
-    dates: "2020-2023",
+    title: "Linio",
+    role: "Software Engineer",
+    dates: "2015-2016",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Multi region marketplace frontend refactor, frontend journeys from home page to checkout with payment method and in-house CMS integrations. Development of APIs for mobile clients.",
+    techList:
+      "PHP, Symfony, Javascript, AngularJS, SASS, Bootstrap, MySQL, Redis, CMS, CDNs",
   },
 ];
 

@@ -23,7 +23,7 @@ const Hero = () => {
             ></Image>
           </div>
           <h1
-            className={`${fontLiterata.className}  text-6xl text-black font-extrabold tracking-tight`}
+            className={`${fontLiterata.className} text-6xl text-black font-extrabold tracking-tight`}
           >
             Octavio Fuentes
           </h1>
@@ -35,18 +35,19 @@ const Hero = () => {
           <p
             className={`${fontInconsolata.className} text-xl pt-8 lg:pt-12 pr-6 lg:pr-24`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud{" "}
-            <a className="underline text-brick" href="">
-              exercitation
-            </a>
-            .
+            I am a Full-Stack Software Engineer with over 10 years of{" "}
+            <Link className="underline text-brick" href={"/cv"}>
+              experience
+            </Link>{" "}
+            delivering solutions primarily for the e-commerce and finance
+            industries. I am domain-driven, somewhat tech-agnostic, and highly
+            people-oriented. I am open to working on independent projects or
+            full-time roles.
           </p>
           <ButtonLink
             className="mt-6 inline-block"
             buttonStyle="outline-light"
-            targetUrl="/work-experience"
+            targetUrl="/cv"
           >
             Read full experience
           </ButtonLink>
