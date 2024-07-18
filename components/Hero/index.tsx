@@ -42,15 +42,16 @@ const Hero = () => {
           <p
             className={`${fontInconsolata.className} text-xl pt-8 lg:pt-12 pr-6 lg:pr-8`}
           >
-            👋 Hi there! I'm a full-stack software engineer with over 10 years
-            of{" "}
+            👋{" "}
+            {`Hi there! I'm a full-stack software engineer with over 10 years
+            of `}
             <Link className="underline text-brick" href={"/cv"}>
               experience
-            </Link>{" "}
-            delivering solutions primarily for the e-commerce and finance
+            </Link>
+            {` delivering solutions primarily for the e-commerce and finance
             industries. Being product-minded, I'm passionate about building
             software that solves real problems. Currently, I am open to working
-            on independent projects or full-time roles.
+            on independent projects or full-time roles.`}
           </p>
           <ButtonLink
             className="mt-6 inline-block"
