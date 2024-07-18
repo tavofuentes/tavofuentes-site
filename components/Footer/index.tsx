@@ -4,6 +4,8 @@ import { Inconsolata } from "next/font/google";
 const fontInconsolata = Inconsolata({ subsets: ["latin"] });
 
 const Footer = () => {
+  const cvDownloadURL =
+    "https://drive.google.com/file/d/13D29PHw5KEAqUfw9F8-PrPewYnnSG-uH";
   return (
     <Panel className="bg-night grow">
       <div
@@ -22,7 +24,7 @@ const Footer = () => {
           <ButtonLink
             className="mb-5"
             buttonStyle="outline-dark"
-            targetUrl="https://www.linkedin.com/in/octavio-fuentes-arce/"
+            targetUrl={cvDownloadURL}
           >
             Download CV
           </ButtonLink>

@@ -1,9 +1,12 @@
+import { StaticImageData } from "next/image";
+
 export interface ExperienceRecord {
   title: string;
   role: string;
   dates: string;
   description: string;
   techList: string;
+  image: StaticImageData;
 }
 
 export interface CVRecord {

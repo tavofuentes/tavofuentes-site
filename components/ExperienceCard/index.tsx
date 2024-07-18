@@ -1,6 +1,7 @@
 import { ExperienceRecord } from "@/support/types";
 import ButtonLink from "../ButtonLink";
 import { Literata, Inconsolata } from "next/font/google";
+import Image from "next/image";
 
 interface Props {
   experienceRecord: ExperienceRecord;
@@ -26,12 +27,12 @@ const ExperienceCard = ({ experienceRecord, bgColor, imgBgColor }: Props) => {
       <div
         className={`${bgColor} 
         rounded-lg
-        flex flex-grow flex-col flex-col-reverse
+        flex flex-grow flex-col-reverse
         md:flex-row
-        outline1
+        outline2
       `}
       >
-        <div className="outline2 p-6 md:p-12 flex-1">
+        <div className="outline3 p-6 md:p-12 flex-1">
           <h1
             className={`${fontLiterata.className} text-5xl mb-2 md:mb-3 text-black font-semibold`}
           >
@@ -68,8 +69,15 @@ const ExperienceCard = ({ experienceRecord, bgColor, imgBgColor }: Props) => {
           rounded-t-lg
           md:rounded-tl-none md:rounded-r-lg
           h-64
-          md:h-auto md:w-1/3`}
-        ></div>
+          md:h-auto md:w-1/3
+          flex justify-center items-center`}
+        >
+          <Image
+            className="w-auto max-h-full flex-grow-0 flex-shrink-0 outline2"
+            alt={experienceRecord.title}
+            src={experienceRecord.image}
+          ></Image>
+        </div>
       </div>
     </div>
   );
