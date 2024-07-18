@@ -11,7 +11,14 @@ const fontInconsolata = Inconsolata({ subsets: ["latin"] });
 const Hero = () => {
   return (
     <Panel className="bg-eggshell">
-      <div className="flex flex-col lg:flex-row pb-6 md:pb-16 outline1">
+      <div
+        className="
+        flex flex-col
+        pb-6 
+        md:pb-16 
+        lg:flex-row
+        outline1"
+      >
         <div className="flex-1 flex-col p-6 md:p-12 outline2">
           <div className="">
             <Image
@@ -33,16 +40,17 @@ const Hero = () => {
             Software Engineer
           </h2>
           <p
-            className={`${fontInconsolata.className} text-xl pt-8 lg:pt-12 pr-6 lg:pr-24`}
+            className={`${fontInconsolata.className} text-xl pt-8 lg:pt-12 pr-6 lg:pr-8`}
           >
-            I am a Full-Stack Software Engineer with over 10 years of{" "}
+            👋 Hi there! I'm a full-stack software engineer with over 10 years
+            of{" "}
             <Link className="underline text-brick" href={"/cv"}>
               experience
             </Link>{" "}
             delivering solutions primarily for the e-commerce and finance
-            industries. I am domain-driven, somewhat tech-agnostic, and highly
-            people-oriented. I am open to working on independent projects or
-            full-time roles.
+            industries. Being product-minded, I'm passionate about building
+            software that solves real problems. Currently, I am open to working
+            on independent projects or full-time roles.
           </p>
           <ButtonLink
             className="mt-6 inline-block"

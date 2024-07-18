@@ -13,8 +13,8 @@ const experienceList = [
     role: "Senior Software Engineer",
     dates: "2020-2023",
     description:
-      "Development and maintenance of PCI DSS compliant payment method integrations.  Close collaboration with checkout product owners and designers for visual and performance improvements.",
-    techList: "PHP, Symfony, Postrgres, Pub/Sub, PCI DSS, AngularJS, Docker",
+      "Collaboration with checkout product owners and designers for UI/UX and performance improvements. Development and maintenance of PCI DSS compliant payment method integrations.",
+    techList: "PHP, Symfony, PostgreSQL, Pub/Sub, PCI DSS, AngularJS, Docker",
     image: linio03,
   },
   {
@@ -31,7 +31,7 @@ const experienceList = [
     role: "Team Leader",
     dates: "2016-2018",
     description:
-      "Collaboration with architecture and DevOps teams for solution design and integration. Definition of roadmap in coordination with stakeholders. Onboarding of new team members. Agile development lifecycle for the Frontend team.",
+      "Collaboration with architecture and DevOps teams for solution design and integration. Roadmap definitions in coordination with stakeholders. Onboarding of new team members. Agile development lifecycle for the frontend team.",
     techList:
       "Agile, Scrum, Docker, PHP, Symfony, Javascript, AngularJS, MySQL, Redis",
     image: linio01,
@@ -41,7 +41,7 @@ const experienceList = [
     role: "Software Engineer",
     dates: "2015-2016",
     description:
-      "Multi region marketplace frontend refactor, frontend journeys from home page to checkout with payment method and in-house CMS integrations. Development of APIs for mobile clients.",
+      "Multi region e-commerce marketplace frontend refactor. Frontend journeys from home page to checkout. Payment method and in-house CMS integrations. Development of APIs for mobile clients.",
     techList:
       "PHP, Symfony, Javascript, AngularJS, SASS, Bootstrap, MySQL, Redis, CMS, CDNs",
     image: linio02,
