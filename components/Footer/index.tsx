@@ -33,7 +33,7 @@ const Footer = () => {
           Design by{" "}
           <a
             className="underline decoration-solid"
-            href="//www.karlavilla.com"
+            href="http://www.karlavilla.com"
             target="_blank"
           >
             Karla Villa
