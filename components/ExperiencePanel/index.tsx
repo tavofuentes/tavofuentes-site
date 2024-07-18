@@ -19,7 +19,7 @@ const experienceList = [
   },
   {
     title: "Globant",
-    role: "Software Engineer",
+    role: "Web UI Developer",
     dates: "2018-2020",
     description:
       "Development of wealth management web applications for Santander México banking group. Delivery of micro frontends for cross-platform environments.",
